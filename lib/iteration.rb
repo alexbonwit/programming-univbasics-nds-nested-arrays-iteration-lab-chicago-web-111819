@@ -27,7 +27,7 @@ def find_greater_pair(src)
   row_index = 0
   while row_index < src.count do
     greater_number = src[row_index][0]
-    if src[row_index][1] > greater_number do
+    if src[row_index][1] > greater_number
       greater_number = src[row_index][1]
     end
     greater_number << pair_array
