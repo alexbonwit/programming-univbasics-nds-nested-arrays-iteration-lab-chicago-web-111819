@@ -23,7 +23,6 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   
   pair_array = []
-  greater_number = 0
   row_index = 0
   while row_index < src.count do
     greater_number = src[row_index][0]
